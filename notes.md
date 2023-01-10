@@ -6,6 +6,8 @@
   * ```CheckRow(n, y)``` returns True if _n_ exists in Row _y_
   * ```CheckCol(n, x)``` returns True if _n_ exists in Column _x_
   * ```CheckSquare(n, x, y)``` returns True if _n_ exists in the square centered at (_x_, _y_)
+* ```Cheat(x, y)``` returns the correct value at (_x_, _y_)
+* ```Hint(n, x, y)``` returns True if _n_ is the number at (_x_, _y_)
 * ```MakePuzzle(n)``` creates a random sudoku with _n_ randomly-placed blanks. (Maybe I'll add symmetry to the blanks at some point, but even then these won't be as good as hand-crafted sudoku!)
 
 ## Conventions
