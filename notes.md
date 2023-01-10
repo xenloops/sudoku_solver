@@ -1,7 +1,7 @@
 ## TODOs
 
-* ```ImportPuzzle()``` imports incomplete puzzle from text file
-* ```ExportPuzzle()``` writes to text file
+* ```ImportPuzzle()``` imports incomplete puzzle from text file and solves, storing the solution in memory
+* ```ExportPuzzle()``` writes solved puzzle to text file
 * Check functions check for an existing value _n_ like so:
   * ```CheckRow(n, y)``` returns True if _n_ exists in Row _y_
   * ```CheckCol(n, x)``` returns True if _n_ exists in Column _x_
