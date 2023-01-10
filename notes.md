@@ -13,7 +13,7 @@
 ## Conventions
 
 * The code implements a sudoku internally as a List of Lists. The coordinate system starts at the bottom left of the sudoku tableau. This is due to my background interest in mathematics; applying the cartesian coordinate system, all coordinates in sudoku should be positive.
-* The text format for importing a puzzle is a simple 2-dimensional array with blanks represented by perids or dashes, e.g.:
+* The text format for importing a puzzle is a simple 2-dimensional array with blanks represented by periods or dashes, e.g.:
   ```
   -5-----7-
   ---4-7---
